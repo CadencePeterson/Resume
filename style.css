@@ -28,6 +28,8 @@
     src: url(PlayfairDisplayMedium-9YKZK.ttf);
 }
 
+div.loading-screen {background-color: #343434}
+
 :root {
     --color: #F5EFFA;
 }
