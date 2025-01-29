@@ -1,0 +1,88 @@
+
+ /** ***************************************************************************
+  * @brief Will print out the list of words in order of frequency. 
+  *
+  * @author [Fill in Later]
+  *
+  * @returns Nothing.
+  * 
+  * @par Example
+  * @verbatim
+    wordFreqList  myWords;
+    myWords.printF();
+
+    //result would be printed out to the console based on this template:
+
+    //************************************************************"\n"
+    //* Words a frequency of # "\n"
+    //************************************************************"\n"
+    //word1               word2               word3               "\n"
+    //word4               word5               word6               "\n"
+    //word7               "\n"
+    //"\n"
+
+    @endverbatim
+  *****************************************************************************/
+void printF()
+{
+
+}
+
+ /** ***************************************************************************
+  * @brief Will print out the list of words in order of length. 
+  *
+  * @author [Fill in Later]
+  *
+  * @returns Nothing.
+  * 
+  * @par Example
+  * @verbatim
+    wordFreqList  myWords;
+    myWords.printL();
+
+    //result would be printed out to the console based on this template:
+
+    //************************************************************"\n"
+    //* Words of length # "\n"
+    //************************************************************"\n"
+    //word1               word2               word3               "\n"
+    //word4               word5               word6               "\n"
+    //word7               "\n"
+    //"\n"
+
+    @endverbatim
+  *****************************************************************************/
+void printL()
+{
+
+}
+
+ /** ***************************************************************************
+  * @brief Will print out the list of words in order of their starting letter, 
+  * sorted based on the lowercase value. 
+  *
+  * @author [Fill in Later]
+  *
+  * @returns Nothing.
+  * 
+  * @par Example
+  * @verbatim
+    wordFreqList  myWords;
+    myWords.printW();
+
+    //result would be printed out to the console based on this template:
+
+    //************************************************************"\n"
+    //* Words starting with the letter # "\n"
+    //************************************************************"\n"
+    //word1               word2               word3               "\n"
+    //word4               word5               word6               "\n"
+    //word7               "\n"
+    //"\n"
+
+    @endverbatim
+  *****************************************************************************/
+void printW()
+{
+
+}

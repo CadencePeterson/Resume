@@ -1,0 +1,127 @@
+@font-face {
+    font-family: rapid;
+    src: url(PlayfairDisplayMedium-9YKZK.ttf);
+}
+
+:root {
+    --color: #F5EFFA;
+}
+/* var(--color); */
+
+/**RapidFinger101-W9RV.ttf
+Unitblock-JpJma.ttf
+JacelonroundedRegularDemo-DYVq9.otf
+*/
+
+@font-face {
+    font-family: bol;
+    src: url(PlayfairDisplayBold-nRv8g.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #343434;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    color: var(--color);
+    font-family: rapid;
+    text-align: center;
+    overflow: visible;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Centered title */
+.title button{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--color);
+    font-family: bol;
+    letter-spacing: .2rem;
+    align-items: center;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.left-side {
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    overflow: visible;
+}
+
+.first-letter {
+    opacity: 0.2;
+}
+
+.left-side button:hover .first-letter {
+    opacity: 1;
+}
+
+.left-side button {
+    background-color: transparent;
+    color: #C3A1E3;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: rapid;
+    letter-spacing: .2rem;
+    border: none;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.left-side button .full-word {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: inline-block;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    transform: translateX(0);
+    right: 0;
+}
+
+.left-side button:hover .full-word {
+    opacity: 1;
+}
+
+.left-side button .full-word span {
+    display: block;
+    /* Changes from inline-block to block to stack the letters vertically */
+    opacity: 0.2;
+    position: relative;
+    transform: translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    margin-top: 1px;
+    /* Add a small space between each letter */
+}
+
+.left-side button:hover .full-word span {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: calc(0.05s * var(--i));
+}
+
+.degrees {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    color: var(--color);
+    font-family: rapid;
+    margin: 0 auto;
+    padding: 0 20px;
+}
