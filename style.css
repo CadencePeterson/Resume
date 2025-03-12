@@ -163,3 +163,26 @@ a {
     transform: translateY(0);
     transition-delay: calc(0.05s * var(--i));
 }
+
+.bottom-buttons-wrapper {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    min-height: 80px;  /* ensure there is enough space */
+  }
+  
+  .bottom-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* No positioning here since it's just used for flex centering */
+  }
+  
+  .me {
+    position: absolute;
+    background: transparent;
+    border: none;
+    color: transparent;
+    opacity: 0;
+  }
+  
